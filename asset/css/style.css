@@ -1,0 +1,493 @@
+#First{
+    display: flex;
+}
+.br-all h3{
+    margin: 0 auto;
+}
+.br-all .box{
+    
+    margin: 0 1%;
+    width: 23%;
+    float: left;
+}
+.br-all .top{
+    display: flex;
+    
+}
+
+.br-all .box .top img{
+  
+  
+    transition: all .3s ease-in-out;
+    padding: 50px 40px;
+margin-left: 10px;
+    margin-top: 100px;
+margin-left: 100px;
+}
+.header-right{
+    margin-right: 100px;
+}
+#First input{
+    margin-top: 10px;
+    padding-left: 284px;
+    margin-left: 188px;
+    display: flex;
+}
+#mounth{
+    margin-left: 58px;
+    margin-top: 9px;
+}
+#year{
+  
+    margin-left: 58px;
+    margin-top: 9px;
+}
+
+
+.menu i{
+    color: rgb(0, 153, 204);
+
+}
+.menu-container {
+    width:100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.menu {
+
+    width: 150px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    padding: 0 0 0 4px;
+    margin: 0;
+   background-color: #FFFFFF ;
+}
+.mod{
+    padding: 6px 0;
+    transition: var(--transition);
+    z-index: 5;
+}
+.mod a{
+    box-shadow: -20px -2px 1px;
+}
+   
+
+.tab{
+margin-top: 19px;
+    background-color: #EEEE;
+    height: 48px;
+}
+.menu a, .menu a:link, .menu a:visited, .menu a:focus, span {
+     color: rgb(209, 209, 224); 
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #227087;
+    text-decoration: none;
+}
+.menu > li {
+    margin-top: 4px;
+    display: block;
+    text-align: center;
+    margin-left: -4px;
+    border-left: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.menu > li > a {
+    padding:20px 18px;
+    display: block;
+}
+.menu > li:hover > a {
+    color: rgb(0, 0, 0);
+}
+.menu > li:hover {
+    background-color: #fff;
+}
+/* Megadrop width dropdown */
+ .menu > li > .megadrop {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    list-style: none;
+    top: 0px;
+    left: 153px;
+    width: 800px;
+    min-height: 100%;
+    text-align: left;
+    margin-top:30px;
+    padding: 0;
+    z-index: 99;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    border-top: 2px solid #227087;
+    border-right: 2px solid #227087;
+    border-bottom: 2px solid #227087;
+}
+.menu > li:hover .megadrop {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+}
+.menu ul li:hover:after {
+    color: #227087;
+}
+.menu .col {
+    width: 14.1%;
+    float: left;
+    color:white;
+    margin: 0 0 0 2.2%;
+}
+.menu .col ul {
+    padding: 0;
+    margin: 0;
+}
+.menu .col ul li {
+    padding: 0;
+    list-style: none;
+    font-size: 11px;
+}
+.menu .col h3 {
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+    color: #227087;
+    background: #eee;
+}
+.menu .col ul li a {
+    display: block;
+    padding: 0 0 15px 0;
+    color: #227087;
+}
+.menu .col ul li a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+
+.menu > li > ul li ul, .menu li >ul li, .menu > li > .megadrop, .menu > li > ul, .menu > li {
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-outs;
+}
+.tab i{
+    margin-right: 10px;
+
+}
+.menu i{
+margin-right: 10px;
+}
+.tab h1{
+ 
+    display: inline-block;
+    padding: 5px 30px;
+    font-size: 21px;
+   background: blue;
+    color: #fff;
+    margin-left: 51px;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+.tab{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu1-container {
+    width:100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.menu1 {
+
+    width: 150px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    padding: 0 0 0 4px;
+    margin: 0;
+    background-color: #227087;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+img{
+    max-width: 100%;
+}
+.fixed-width{
+    max-width: 1024px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* Css Began */
+
+.header{
+    background: #000;
+}
+.header-left {
+    float: left;
+    width: 30%;
+}
+
+.menu .box{}
+.header-left img {
+    width: 100px;
+    padding: 5px 0px;
+    transition: .5s;
+}
+.header-left img:hover{
+    transform: rotate(360deg);
+
+}
+.time{
+
+}
+.header-right {
+    float: right;
+    width: 70%;
+}
+
+
+.header-right ul li{
+    display: inline-block;
+
+}
+.header-right ul li a {
+    margin-top: 40px;
+    background-color: #e8e8e8;
+    padding: 5px 30px;
+    font-size: 21px;
+    color: #fff;
+    margin-left: -5px;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+.header-right ul li a:hover {
+    background: #ecf0f1;
+    color: #000;
+}
+/* Drop Down */
+.header-right ul li{
+    position: relative;
+}
+.header-right ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin:center top;
+
+}
+.header-right ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    
+}
+
+
+
+.header-right ul li ul li{
+    display: block;
+    
+}
+.header-right ul li ul li a{
+    display: block;
+
+}
+.header-right ul li ul li:hover> a{
+    background: tomato;
+
+    
+} 
+ /* 2nd dropdown */
+.header-right ul li ul li{
+    position: relative;
+}
+.header-right ul li ul li ul{
+    position: absolute;
+    top: 0;
+    left: 102%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Banner Section */
+
+
+.banner-content{
+    background: url(https://i.ibb.co/t42f2Nf/mountain-nwe-vectorized.png) center center;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.banner-text h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 80px;
+}
+.banner-text p {
+    font-size: 22px;
+    margin-left: 80px;
+    padding: 20px 0px;
+}
+.banner-text span {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    margin-left: 80px;
+}
+/* bio-section */
+
+
+.bio-content {
+    background: #444444;
+    padding: 80px 0px;
+}
+
+.bio-left{
+    float: left;
+    width: 50%;
+}
+.bio-left p {
+    color: #fff;
+    margin-left: 60px;
+    text-align: justify;
+    font-size: 27px;
+    text-transform: lowercase;
+}
+.bio-right{
+    float: right;
+    width: 50%;
+}
+.bio-right img{
+    margin-right: 60px;
+    width: 250px;
+    height: auto;
+}
+/* Team-section */
+.team-text h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.team-pic img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
